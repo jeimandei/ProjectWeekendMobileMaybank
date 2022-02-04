@@ -66,7 +66,7 @@ public class ListNasabahActivity extends AppCompatActivity implements AdapterVie
                     public void run() {
                         progressDialog.dismiss();
                     }
-                }, 1000);
+                }, 10000);
 
                 JSON_STRING = s;
                 Log.d("Data_JSON", JSON_STRING);
